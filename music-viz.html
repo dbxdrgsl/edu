@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music & Sound Visualization</title>
+</head>
+<body>
+  <h1>🎶 Music & Sound Visualization</h1>
+  <p>Experience waveforms, rhythm, and harmony through visual experimentation. This course uses simple tools like Python, Sonic Pi, and WebAudio API to make audio data visible, interactive, and enjoyable.</p>
+  <h2>Highlights:</h2>
+  <ul>
+    <li>Fourier transforms and sound decomposition</li>
+    <li>Waveform drawing with HTML5 Canvas</li>
+    <li>Real-time beat visualization with P5.js</li>
+    <li>Music meets code: generative composition</li>
+  </ul>
+</body>
+</html>
+<script>
+  // Example of a simple interactive element
+  document.addEventListener('DOMContentLoaded', () => {
+    const highlights = document.querySelector('ul');
+    highlights.addEventListener('click', (event) => {
+      if (event.target.tagName === 'LI') {
+        event.target.classList.toggle('highlighted');
+      }
+    });
+  });
+
+</script>
